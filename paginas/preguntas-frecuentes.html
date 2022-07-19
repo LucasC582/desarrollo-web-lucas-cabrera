@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes</title>
+    <!-- Vinculacion de forma externa a hoja de estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&family=Titan+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body class="grid">
+    <header class="header grid__header">
+        <img class="header__image1 header__grid1" src="../imagenes/Lukmar.jpg" alt="logo de pagina" width="200" height="200">
+
+        <div class="header__div0 header__grid3">
+            <div class="header__div1">
+                <nav>
+                    <ul class="nav__ul">
+                        <li class="nav__li--left">
+                            <a href="../index.html">Inicio</a>                   
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/empresa.html">Empresa</a> 
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav__li--right">
+                            <a href="../paginas/preguntas-frecuentes.html">FAQ</a>
+                        </li>
+                    </ul>                         
+                </nav>
+            </div>
+            <div class="header__div3 header__grid2">
+                <form class="header__form">
+                    <div>
+                        <input type="text" value="Buscador" required>
+                    </div>
+                    <div>
+                        <button>Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="header__div2">
+            <img class="header__image2" src="../imagenes/usuario.png" alt="usuario" width="100" height="100">
+            <img class="header__image3" src="../imagenes/compras.png" alt="carrito" width="100" height="100">
+        </div>
+    </header>
+
+    <main>
+        <h2 class="faq__title">Preguntas frecuentes</h2>
+        <div class="main__faq">
+            <dl>
+                <dt class="faq__pregunta">1 - ¿Pregunta número 1?</dt>
+                <dd class="faq__respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis obcaecati tenetur quos consequatur esse? Modi odit aliquid, et soluta inventore deleniti? Neque fugiat quia, officia ullam molestiae quis accusamus?</dd>
+                <dt class="faq__pregunta">2 - ¿Pregunta número 2?</dt>
+                <dd class="faq__respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis obcaecati tenetur quos consequatur esse? Modi odit aliquid, et soluta inventore deleniti? Neque fugiat quia, officia ullam molestiae quis accusamus?</dd>
+                <dt class="faq__pregunta">3 - ¿Pregunta número 3?</dt>
+                <dd class="faq__respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis obcaecati tenetur quos consequatur esse? Modi odit aliquid, et soluta inventore deleniti? Neque fugiat quia, officia ullam molestiae quis accusamus?</dd>
+                <dt class="faq__pregunta">4 - ¿Pregunta número 4?</dt>
+                <dd class="faq__respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis obcaecati tenetur quos consequatur esse? Modi odit aliquid, et soluta inventore deleniti? Neque fugiat quia, officia ullam molestiae quis accusamus?</dd>
+                <dt class="faq__pregunta">5 - ¿Pregunta número 5?</dt>
+                <dd class="faq__respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis obcaecati tenetur quos consequatur esse? Modi odit aliquid, et soluta inventore deleniti? Neque fugiat quia, officia ullam molestiae quis accusamus?</dd>
+            </dl>
+        </div>
+    </main>
+
+    <footer class="footer grid__footer">
+        <hr class="footer__hr"/>
+
+        <div class="footer__flex">
+            <div class="footer__enlaces">
+                <h4 class="footer__subtitle">Información</h4>
+                <div class="enlaces__div">
+                    <ul>
+                        <li>
+                            <a href="../paginas/empresa.html">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="../paginas/preguntas-frecuentes.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+    
+            <div class="footer__suscripcion">
+                <h4 class="footer__subtitle">Suscribite para recibir nuestras ofertas</h4>
+                <form class="footer__form">
+                    <div class="form__div">
+                        <label class="form__label" for="nombre">Nombre y Apellido:</label>
+                        <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" required>
+                    </div>
+                    <div class="form__div"> 
+                        <label class="form__label" for="email">Dirección de email:</label>
+                        <input class="form__input" type="email" id="email" name="email" placeholder="Ingrese el email" required>
+                    </div>
+                    <div>
+                        <button class="form__button">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+
+            <div class="footer__redes">
+                <h4 class="footer__subtitle">Seguinos en redes sociales</h4>
+                <div class="footer__links">
+                    <a href="https://www.instagram.com/lukmar.3d/" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo ig.png" alt="instagram" width="100" height="100">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo fb.png" alt="facebook" width="100" height="100">
+                    </a>
+                    <a href="https://wa.me/+549341205037" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo wp.png" alt="whatsapp" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <hr>
+    
+            <div class="footer__pago">
+                
+                <h4 class="footer__subtitle">Metodos de pago</h4>
+                <div class="pago__images">
+                    <img class="pago__image" src="../imagenes/visa.png" alt="visa" width="100" height="100">
+                    <img class="pago__image" src="../imagenes/master.png" alt="mastercard" width="100" height="100">
+                    <img class="pago__image" src="../imagenes/american.png" alt="american" width="100" height="100">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer__derechos">
+            <h5>Derechos reservados</h5>
+        </div>
+    </footer>
+</body>
+</html>

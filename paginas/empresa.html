@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa</title>
+    <!-- Vinculacion de forma externa a hoja de estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&family=Titan+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body class="grid">
+    <header class="header grid__header">
+        <img class="header__image1 header__grid1" src="../imagenes/Lukmar.jpg" alt="logo de pagina" width="200" height="200">
+
+        <div class="header__div0 header__grid3">
+            <div class="header__div1">
+                <nav>
+                    <ul class="nav__ul">
+                        <li class="nav__li--left">
+                            <a href="../index.html">Inicio</a>                   
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/empresa.html">Empresa</a> 
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav__li">
+                            <a href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav__li--right">
+                            <a href="../paginas/preguntas-frecuentes.html">FAQ</a>
+                        </li>
+                    </ul>                         
+                </nav>
+            </div>
+            <div class="header__div3 header__grid2">
+                <form class="header__form">
+                    <div>
+                        <input type="text" value="Buscador" required>
+                    </div>
+                    <div>
+                        <button>Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="header__div2">
+            <img class="header__image2" src="../imagenes/usuario.png" alt="usuario" width="100" height="100">
+            <img class="header__image3" src="../imagenes/compras.png" alt="carrito" width="100" height="100">
+        </div>
+    </header>
+
+    <main>
+        <div class="main__empresa">
+            <h2 class="empresa__titulo grid__empresa--titulo">Sobre Nosotros</h2>
+            <img class="empresa__image grid__empresa--imagen" src="../imagenes/Lukmar.jpg" alt="logo">
+            <p class="grid__empresa--parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit eligendi natus ullam, atque laboriosam at voluptate voluptatum. Minima consectetur consequuntur neque, in nesciunt aperiam perferendis necessitatibus velit dicta atque est! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aliquam? Sunt suscipit aliquam in atque totam saepe vel nesciunt optio adipisci dolor sapiente ut deserunt alias, omnis nulla. Molestiae, doloremque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repudiandae vel sequi iste nulla dicta, explicabo necessitatibus repellendus laboriosam? Vel molestiae ad aperiam eius consequuntur esse ipsum laboriosam tempore sint.</p>
+        </div>
+        
+        <div class="empresa__flex">
+            <div class="empresa__divvideo">
+                <h3 class="empresa__titulo">Método de Trabajo</h3>
+                <iframe class="empresa__video" width="560" height="315" src="https://www.youtube.com/embed/hguP8iValEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="empresa__divubi">
+                <h3 class="empresa__titulo">Ubicación</h3>
+                <iframe class="empresa__ubi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53588.64889188288!2d-60.816887799999996!3d-32.9169208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64dac38aea5e7%3A0xe7709bb9296042f8!2sFunes%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1656193302219!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="footer grid__footer">
+        <hr class="footer__hr"/>
+
+        <div class="footer__flex">
+            <div class="footer__enlaces">
+                <h4 class="footer__subtitle">Información</h4>
+                <div class="enlaces__div">
+                    <ul>
+                        <li>
+                            <a href="../paginas/empresa.html">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="../paginas/preguntas-frecuentes.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+    
+            <div class="footer__suscripcion">
+                <h4 class="footer__subtitle">Suscribite para recibir nuestras ofertas</h4>
+                <form class="footer__form">
+                    <div class="form__div">
+                        <label class="form__label" for="nombre">Nombre y Apellido:</label>
+                        <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre" required>
+                    </div>
+                    <div class="form__div"> 
+                        <label class="form__label" for="email">Dirección de email:</label>
+                        <input class="form__input" type="email" id="email" name="email" placeholder="Ingrese el email" required>
+                    </div>
+                    <div>
+                        <button class="form__button">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+
+            <div class="footer__redes">
+                <h4 class="footer__subtitle">Seguinos en redes sociales</h4>
+                <div class="footer__links">
+                    <a href="https://www.instagram.com/lukmar.3d/" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo ig.png" alt="instagram" width="100" height="100">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo fb.png" alt="facebook" width="100" height="100">
+                    </a>
+                    <a href="https://wa.me/+549341205037" target="_blank">
+                        <img class="redes__image" src="../imagenes/logo wp.png" alt="whatsapp" width="100" height="100">
+                    </a>
+                </div>
+            </div>
+            <hr>
+    
+            <div class="footer__pago">
+                
+                <h4 class="footer__subtitle">Metodos de pago</h4>
+                <div class="pago__images">
+                    <img class="pago__image" src="../imagenes/visa.png" alt="visa" width="100" height="100">
+                    <img class="pago__image" src="../imagenes/master.png" alt="mastercard" width="100" height="100">
+                    <img class="pago__image" src="../imagenes/american.png" alt="american" width="100" height="100">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer__derechos">
+            <h5>Derechos reservados</h5>
+        </div>
+    </footer>
+</body>
+</html>
