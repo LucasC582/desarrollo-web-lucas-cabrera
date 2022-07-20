@@ -717,13 +717,10 @@ footer ul{
     }
 
     /* main - index */
-    .main__index{
-        width: 100%;
-        padding: 0rem 1.5rem;
-    }
     .main__section{
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 720px;
     }
     .main__descripcion{
         margin-left: 0.5rem;
