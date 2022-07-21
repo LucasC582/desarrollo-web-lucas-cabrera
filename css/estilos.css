@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(234, 212, 255);
+    
 }
 
     /* fuente importada: font-family: 'Smooch', cursive; */
@@ -182,6 +183,19 @@ header input{
     width: 350px;
     height: 400px;
 }
+.kenburns-top:hover {
+	animation: kenburns-top 2s ease-out both;
+}
+@keyframes kenburns-top {
+    0% {
+      transform: scale(1) translateY(0);
+      transform-origin: 50% 16%;
+    }
+    100% {
+      transform: scale(1.05) translateY(-10px);
+      transform-origin: top;
+    }
+  }
 
     /* Main__productos */
 
@@ -236,7 +250,12 @@ header input{
     border: 2px solid rgba(0, 17, 255, 0.5);
     margin-top: 3rem;
     margin-bottom: 3rem;
+    transition: background-color 2s ;
 }
+.main__descripcion:hover{
+    background-color: #8a65e6a6;
+}
+
 .descipcion__subtitle{
     font-family: 'Courgette', cursive;
     font-weight: bolder;
