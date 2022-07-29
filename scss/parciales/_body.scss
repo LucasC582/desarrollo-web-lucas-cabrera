@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 212, 255);
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: lighter;  
+}
+.nav__li:hover{
+    background-color: rgba(20, 20, 20, 0.651);
+}
+.nav__li--left:hover{
+    background-color: rgba(20, 20, 20, 0.651);
+}
+.nav__li--right:hover{
+    background-color: rgba(20, 20, 20, 0.651);
+}
+
+/* fuente importada: font-family: 'Smooch', cursive; */

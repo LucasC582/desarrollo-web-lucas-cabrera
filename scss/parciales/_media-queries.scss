@@ -1,0 +1,117 @@
+@media screen and (max-width:599px) {
+
+    .header{
+    display: grid;
+    grid-template-areas: 
+    "imagen usuario"
+    "nav nav";
+    justify-items: center;
+    align-items: flex-start;
+    }
+    .header__grid1{
+        grid-area: imagen;
+    }
+    .header__grid2{
+        grid-area: usuario;
+    }
+    .header__grid3{
+        grid-area: nav;
+    }
+    .header__image1{
+        width: 150px;
+        height: auto;
+        border-radius: 20px;
+        margin: 0;
+    }
+    .header__div2{
+        width: 120px;
+        height: 50px;
+        margin: 0;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .header__div0{
+        width: auto;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .footer__flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    footer ul{
+        list-style: none;
+        /* margin-left: 0.5rem; */
+        font-size: 16px;
+        align-items: center;
+    }
+    .enlaces__div{
+        text-align: center;
+        margin-top: -0.5rem;
+    }
+    .footer__subtitle{
+        margin-top: 0.5rem;
+    }
+    .footer__hr{
+        margin: 1rem;
+    }
+
+    /* main - index */
+    .main__section{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 720px;
+    }
+    .main__descripcion{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    /* main - empresa */
+    .main__empresa{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+    .empresa__image{
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Productos */
+    .productos__img2{
+        width: 300px;
+        height: auto;
+    }
+    
+    /* Contacto */
+    .main__contacto{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
+    /* Preguntas frecuentes */
+    .faq__title{
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .main__faq{
+        /* border: 1px solid black; */
+        width: 500px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+ 

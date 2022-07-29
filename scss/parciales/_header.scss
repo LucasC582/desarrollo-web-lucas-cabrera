@@ -1,0 +1,113 @@
+.header{
+    background-color: rgb(18, 13, 20);
+    background-image: linear-gradient(to right, black, rgb(131, 61, 131));
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__image1{
+    width: 120px;
+    height: auto;
+    border-radius: 20px;
+    margin: 16px 16px 16px 32px;
+}
+.header__div1{
+    width: fit-content;
+    height: auto;
+    margin: 0px auto;
+}
+.header__div2{
+    width: 120px;
+    height: 50px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.header__image2{
+    width: 40px;
+    height:40px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.header__image3{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(243, 199, 117);
+}
+header nav{
+    width: auto;
+    background-color: rgb(107, 0, 207);
+}
+.nav__li{
+    width: auto;
+    padding: 0 1rem;
+    border: 1px solid rgb(255, 246, 246);
+    border-top: 2px solid rgb(255, 246, 246);
+    border-bottom: 2px solid rgb(255, 246, 246);;
+    text-align: center;
+}
+.nav__li--left{
+    width: 5rem;
+    height: 1.5rem;
+    border: 2px solid rgb(255, 246, 246);
+    border-right: 1px solid rgb(255, 246, 246);
+    text-align: center;
+}
+.nav__li--right{
+    width: 5rem;
+    border: 2px solid rgb(255, 246, 246);
+    border-left: 1px solid rgb(255, 246, 246);
+    text-align: center;
+}
+.nav__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.header__div0{
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header input{
+    width: 300px;
+    margin-right: 0.5rem ;
+    color:#27243694;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding-left: 0.5rem;
+}
+
+header button{
+    padding: 1px 2px 0 2px;
+    border-radius: 5px;
+} 

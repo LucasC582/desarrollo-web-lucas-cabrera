@@ -1,0 +1,22 @@
+/* Grid */
+.grid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.grid__header{
+    grid-area: header;
+}
+.grid__main{
+    grid-area: main;
+}
+.grid__footer{
+    grid-area: footer;
+}

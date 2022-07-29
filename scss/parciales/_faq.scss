@@ -1,0 +1,35 @@
+/* Preguntas frecuentes */
+.faq__title{
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    color: rgba(0, 17, 255, 0.747);
+    text-align: center;
+    font-weight:lighter;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.main__faq{
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: #9688cca6;
+    position: relative;
+}
+.faq__pregunta{
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0, 17, 255, 0.747);
+    text-align: start;
+}
+.faq__respuesta{
+    font-family: cursive;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
