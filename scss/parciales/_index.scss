@@ -27,6 +27,9 @@
         color: rgba(0, 17, 255, 0.747);
         margin-left: 5rem;
     }
+    .img__media{
+        border-radius: 10px;
+    }
     .ofertas__flex{
         display: flex;
         flex-direction: row;
@@ -150,6 +153,7 @@
         text-align: center;
     }
     .descipcion__parrafo{
+        text-align: justify;
         font-family: cursive;
         font-size: 18px;
         font-style: italic;

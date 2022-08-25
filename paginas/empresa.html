@@ -78,13 +78,21 @@
         <div class="main__empresa">
             <h2 class="empresa__titulo grid__empresa--titulo">Sobre Nosotros</h2>
             <img class="empresa__image grid__empresa--imagen" src="../imagenes/Lukmar.jpg" alt="logo">
-            <p class="grid__empresa--parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit eligendi natus ullam, atque laboriosam at voluptate voluptatum. Minima consectetur consequuntur neque, in nesciunt aperiam perferendis necessitatibus velit dicta atque est! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aliquam? Sunt suscipit aliquam in atque totam saepe vel nesciunt optio adipisci dolor sapiente ut deserunt alias, omnis nulla. Molestiae, doloremque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed repudiandae vel sequi iste nulla dicta, explicabo necessitatibus repellendus laboriosam? Vel molestiae ad aperiam eius consequuntur esse ipsum laboriosam tempore sint.</p>
+            <div class="grid__empresa--parrafo empresa__parrafo">
+                <p> Somos un emprendimiento que dedicado a la impresión de articulos 3D, ya sean personajes, juguetes o piezas mecanicas.
+                    Contamos con distintos tipos de material que pueden ser empleados para diversos trabajos, desde piezas flexibles hasta repuestos que requieran de resistencia mecanica.
+                <p>
+                    Nos encontramos en Funes, Santa Fé y realizamos envios a todo el país.
+                    Visitanos en nuestras redes para conocer todos nuestros trabajos y comunicarte con nosotros de manera rápida.
+                </p>
+            </div>
+            
         </div>
         
         <div class="empresa__flex">
             <div class="empresa__divvideo">
                 <h3 class="empresa__titulo">Método de Trabajo</h3>
-                <iframe class="empresa__video" width="560" height="315" src="https://www.youtube.com/embed/hguP8iValEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="empresa__video"  src="https://www.youtube.com/embed/hguP8iValEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div class="empresa__divubi">
@@ -102,7 +110,7 @@
             <div class="footer__enlaces">
                 <h4 class="footer__subtitle">Información</h4>
                 <div class="enlaces__div">
-                    <ul>
+                    <ul class="enlaces__ul">
                         <li>
                             <a href="../paginas/empresa.html">Empresa</a>
                         </li>
@@ -115,7 +123,6 @@
                     </ul>
                 </div>
             </div>
-            <hr>
     
             <div class="footer__suscripcion">
                 <h4 class="footer__subtitle">Suscribite para recibir nuestras ofertas</h4>
@@ -128,7 +135,7 @@
                         <label class="form__label" for="email">Dirección de email:</label>
                         <input class="form__input" type="email" id="email" name="email" placeholder="Ingrese el email" required>
                     </div>
-                    <div>
+                    <div class="form__div2">
                         <button class="form__button">Enviar</button>
                     </div>
                 </form>
@@ -139,13 +146,13 @@
                 <h4 class="footer__subtitle">Seguinos en redes sociales</h4>
                 <div class="footer__links">
                     <a href="https://www.instagram.com/lukmar.3d/" target="_blank">
-                        <img class="redes__image" src="../imagenes/logo ig.png" alt="instagram" width="100" height="100">
+                        <img class="redes__image" src="../imagenes/logo-ig.png" alt="instagram" width="100" height="100">
                     </a>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img class="redes__image" src="../imagenes/logo fb.png" alt="facebook" width="100" height="100">
+                        <img class="redes__image" src="../imagenes/logo-fb.png" alt="facebook" width="100" height="100">
                     </a>
                     <a href="https://wa.me/+549341205037" target="_blank">
-                        <img class="redes__image" src="../imagenes/logo wp.png" alt="whatsapp" width="100" height="100">
+                        <img class="redes__image" src="../imagenes/logo-wp.png" alt="whatsapp" width="100" height="100">
                     </a>
                 </div>
             </div>
@@ -167,7 +174,6 @@
             <h5>Derechos reservados</h5>
         </div>
     </footer>
-
     <!-- Vinculacion archivos locales de bootstrap (js) -->
     <script src="../js/bootstrap.bundle.js"></script>
 </body>
